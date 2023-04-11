@@ -125,22 +125,21 @@ h1{
 @media screen and (max-width:414px){
     .container{
         display: block;
-        margin-left: 15px;
-        margin-right: 0px;
+        margin-left: 30px;
         width: 5px;
         margin-top: 40px;
     }
     .container-part1{
-        width: 210px;
+        width: 320px;
         border-radius: 5px 5px 0 0;
         padding: 5px;
     }
     .container-part2{
-     width: 210px;
+     width: 320px;
      padding: 5px;
     }
     .container-part3{
-        width: 210px;
+        width: 320px;
         border-radius: 0 0 5px 5px;
         padding: 5px;
     }
