@@ -130,17 +130,17 @@ h1{
         margin-top: 40px;
     }
     .container-part1{
-        width: 200px;
+        width: 210px;
         border-radius: 5px 5px 0 0;
-        padding: 10px;
+        padding: 5px;
     }
     .container-part2{
-     width: 200px;
-     padding: 10px;
+     width: 210px;
+     padding: 5px;
     }
     .container-part3{
-        width: 200px;
+        width: 210px;
         border-radius: 0 0 5px 5px;
-        padding: 10px;
+        padding: 5px;
     }
 }
