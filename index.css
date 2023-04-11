@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    line-height: 25px;
+    
+}
+h1{
+    color: white;
+    font-size:40px;
+}
+.container{
+    width:90% ;
+    display: flex;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+}
+.container-part1{
+    text-align: center;
+    /* height: 70vh;
+    width: 20%;
+    padding: 70px; */
+    padding-top: 20px;
+    background-color: orangered;
+    border-radius: 5px 0px 0px 5px;
+    width: 300px; 
+    height: 500px;
+}
+.container-part1 button{
+    border-radius: 20px;
+    border: none;
+    color:orangered;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.container-part1 img{
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+.circle1{
+    color: rgb(114, 65, 8);
+    border: solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(114, 65, 8);
+    margin-left: 15px;
+
+}
+.container-part2{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(4, 97, 97);
+    width: 300px; 
+    height: 500px;
+
+}
+
+.container-part2 button{
+    border-radius: 20px;
+    border: none;
+    color:rgb(4, 97, 97);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container-part2 img{
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 600px;
+}
+.circle{
+    color: rgb(3, 63, 63);
+    border: solid;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(3, 63, 63);
+    margin-left: 15px;
+
+}
+.container-part3{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(1, 46, 46);
+    width: 300px; 
+    height: 500px;
+    border-radius: 0px 5px 5px 0px;
+}
+.container-part3 button{
+    border-radius: 20px;
+    border: none;
+    color:rgb(1, 46, 46);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.container-part3 img{
+    width: 20px;
+    height: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+@media screen and (max-width:414px){
+    .container{
+        display: block;
+        margin-left: 15px;
+        width: 5px;
+        margin-top: 40px;
+    }
+    .container-part1{
+        width: 200px;
+        border-radius: 5px 5px 0 0;
+        padding: 10px;
+    }
+    .container-part2{
+     width: 200px;
+     padding: 10px;
+    }
+    .container-part3{
+        width: 200px;
+        border-radius: 0 0 5px 5px;
+        padding: 10px;
+    }
+}
