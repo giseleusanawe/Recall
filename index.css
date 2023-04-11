@@ -126,6 +126,7 @@ h1{
     .container{
         display: block;
         margin-left: 15px;
+        margin-right: 0px;
         width: 5px;
         margin-top: 40px;
     }
